@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField /> rendering renders correctly 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal"
+  style={
+    Object {
+      "width": 220,
+    }
+  }
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+    data-shrink={true}
+  >
+    this is a test
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-multiline MuiInput-multiline"
+    onClick={[Function]}
+  >
+    <textarea
+      aria-invalid={false}
+      autoFocus={false}
+      className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+      disabled={false}
+      name="test"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      rows={1}
+      style={
+        Object {
+          "height": undefined,
+          "overflow": null,
+        }
+      }
+      value="value"
+    />
+    <textarea
+      aria-hidden={true}
+      className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+      readOnly={true}
+      style={
+        Object {
+          "height": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "top": 0,
+          "transform": "translateZ(0)",
+          "visibility": "hidden",
+        }
+      }
+      tabIndex={-1}
+    />
+  </div>
+</div>
+`;
